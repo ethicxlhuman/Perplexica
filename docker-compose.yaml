@@ -4,7 +4,7 @@ services:
     build:
       context: .
     ports:
-      - '3000:3000'
+      - '3001:3000'
     labels:
       - 'traefik.http.middlewares.mybasicauth.basicauth.users=ethicxl:$2y$05$4PkkAEdIQ3.wG7JIrXE/Q.1J7fp.gZ/6bnMYJulvFzfi5Wjgwabli'
     volumes:
